@@ -231,8 +231,62 @@ body{
 
 /* section4 here */
 
+/* Carousel Container */
+.carousel{
+    overflow: hidden;
+    /* background-color: #3084bb; */
+}
+
+.carousel-track {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-card{
+    min-width: 300px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #3084bb;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Card Button */
+.carousel-card button {
+    padding: 8px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    background-color: #7cbeeb;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.carousel-card button:hover{
+    background-color: #fff;
+    cursor: pointer;
+    color: #3084bb;
+    transition: 0.5s;
+}
+
+
 /* section5 here */
 #bucu-img{
+    display: flex;
+    justify-items:end;
+    align-items: flex-end;
     animation: float 3s ease-in-out infinite;
 }
 
