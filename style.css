@@ -283,7 +283,6 @@ body{
 /* section5 here */
 #section5{
     margin-top: 2rem;
-    padding: 2rem;
     text-align: center;
 }
 
@@ -293,14 +292,20 @@ body{
 }
 
 .cards{
+    /* height: auto; */
     display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
     /* justify-content: space-between; */
     /* gap: 20px; */
 }
 
-#left-card #right-card{
-    flex-direction: column;
-
+.cards>#left-card {
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: orange;
 }
 
 /* individual card */
@@ -309,8 +314,7 @@ body{
     padding: 1.5rem;
     color: #000;
     border-radius: 24px;
-    background-color: #3084bb;
-    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+    /* box-shadow: 0 4px 8px rgb(0,0,0,0.1); */
 }
 
 .card p{
