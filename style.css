@@ -282,7 +282,16 @@ body{
 }
 
 /* section5 here */
+#section5 .container{
+    margin-top: 2em;
+}
 
+#container-section5{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* section6 here */
 #bucu-img{
