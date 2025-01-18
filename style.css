@@ -263,7 +263,6 @@ body{
     border-radius: 4px;
 }
 
-/* Card Button */
 .carousel-card button {
     padding: 8px;
     border-radius: 12px;
@@ -282,15 +281,47 @@ body{
 }
 
 /* section5 here */
-#section5 .container{
-    margin-top: 2em;
+#section5{
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
 }
 
-#container-section5{
-    
+#section5 h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cards{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* gap: 20px; */
+}
+
+#left-card #right-card{
+    flex-direction: column;
+
+}
+
+/* individual card */
+.card{
+    display: flex;
+    padding: 1.5rem;
+    color: #000;
+    border-radius: 24px;
+    background-color: #3084bb;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.1);
+}
+
+.card p{
+    padding-left: 2rem;
+    color: #000;
+    text-align: start;
+}
+
+.card i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* section6 here */
