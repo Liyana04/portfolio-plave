@@ -235,7 +235,7 @@ body{
 .carousel{
     overflow: hidden;
     /* background-color: #3084bb; */
-}
+} 
 
 .carousel-track {
     display: flex;
