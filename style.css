@@ -292,20 +292,8 @@ body{
 }
 
 .cards{
-    /* height: auto; */
     display: flex;
-    align-items: center;
-    /* overflow: hidden; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
-    /* gap: 20px; */
-}
-
-.cards>#left-card {
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    background-color: orange;
+    justify-content: space-around;
 }
 
 /* individual card */
