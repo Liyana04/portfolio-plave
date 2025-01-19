@@ -26,7 +26,7 @@
   }
   
   nav {
-    background: #a7ffeb;
+    background: #c0ffa7;
     grid-area: nav;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -40,14 +40,14 @@
   }
   
   #sidebar {
-    background: #18ffff;
+    background: #a06ff0;
     grid-area: sidebar;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
   }
   
   #content1 {
-    background: #6fffd2;
+    background: #ff6f82;
     grid-area: content1;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
